@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "email": "admin@example.com",
+            "password": "password123"
+        },
+        {
+            "username": "testuser",
+            "email": "test@example.com",
+            "password": "password123"
+        }
+    ],
+    "posts": [
+        {
+            "title": "はじめての投稿",
+            "content": "これは最初のブログ投稿です。Flask アプリケーションが正常に動作しています。",
+            "author_username": "admin"
+        },
+        {
+            "title": "Python の素晴らしさ",
+            "content": "Python は読みやすく、書きやすい素晴らしいプログラミング言語です。Web開発、データ分析、機械学習など幅広い分野で活用されています。",
+            "author_username": "admin"
+        },
+        {
+            "title": "Flask で Web 開発",
+            "content": "Flask は軽量で柔軟な Web フレームワークです。シンプルな構造で、小規模から大規模なアプリケーションまで対応できます。",
+            "author_username": "testuser"
+        },
+        {
+            "title": "データベース設計のベストプラクティス",
+            "content": "適切なデータベース設計は、アプリケーションのパフォーマンスと保守性に大きく影響します。正規化、インデックス、リレーションシップを適切に設計しましょう。",
+            "author_username": "testuser"
+        },
+        {
+            "title": "REST API の設計原則",
+            "content": "REST API を設計する際は、リソース指向、HTTP メソッドの適切な使用、ステートレス性などの原則に従うことが重要です。",
+            "author_username": "admin"
+        }
+    ]
+}
