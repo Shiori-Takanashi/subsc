@@ -8,6 +8,8 @@ from app.extensions.login import login_manager
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
+    app.config["CONFIG_NAME"] = config_class.__name__
+    print(f"[Flask] CONFIG = {app.config['CONFIG_NAME']}")
 
     # Initialize extensions
     db.init_app(app)
