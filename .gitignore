@@ -11,3 +11,5 @@ wheels/
 .pytest_cache
 .mypy_cache
 .mypy_log
+
+instance
